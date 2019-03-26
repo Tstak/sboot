@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # web-java-spring-boot
 
 # Developer Workspace
@@ -17,3 +18,6 @@ FROM [codenvy/ubuntu_jdk8](https://hub.docker.com/r/codenvy/ubuntu_jdk8/)
 # Preview URL
 
 The app runs on port 8080 in the container
+=======
+# sboot
+>>>>>>> refs/heads/master
