@@ -18,6 +18,6 @@ spec:
           limits:
             memory: 2048Mi
           requests:
-            memory: 1024Mi
+            memory: 512Mi
         ports:
         - containerPort: 8080
