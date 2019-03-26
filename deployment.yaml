@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: manager
 spec:
-  replicas: 3
+  replicas: 2
   minReadySeconds: 20
   template:
     metadata:
@@ -13,7 +13,7 @@ spec:
       containers:
       - name: manager
         imagePullPolicy: Always
-        image: gcr.io/aws-asha/manager
+        image: gcr.io/aws-asha/manager:latest
         resources:
           limits:
             memory: 2048Mi
