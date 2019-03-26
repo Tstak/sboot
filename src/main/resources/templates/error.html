@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<div th:replace="/tools/fragment.html::header"></div>
+<body>
+<div class="container-fluid">
+    <div th:replace="/tools/fragment.html::navbar"></div>
+    <hr>
+    <div class="alert alert-success" role="alert">
+        <h4 class="alert-heading"><div th:text="'Error : ' + ${status}"/></h4>
+        <p><div th:text="${error}"/></p>
+        <hr>
+        <td th:text="${trace}"/>
+    </div>
+</div>
+<div th:replace="/tools/fragment.html::footer"></div>
+</body>
+</html>
